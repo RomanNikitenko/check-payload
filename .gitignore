@@ -2,3 +2,12 @@ check-payload
 bin/
 !test/**/bin/
 *.class
+custome/bundle/
+custome/local-image/
+custome/check-payload
+custome/amd64-image/
+custome/arm64-image/
+custome/ppc64le-image/
+custome/s390x-image/
+
+

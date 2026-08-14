@@ -1,0 +1,39 @@
+/checode-linux-libc/ubi8/extensions/copilot/node_modules/@github/copilot/sdk/tgrep/bin/linux-x64/tgrep
+| /checode-linux-libc/ubi8/extensions/copilot/node_modules/@github/copilot/tgrep/bin/linux-x64/tgrep
+| /checode-linux-libc/ubi8/node_modules/@github/copilot-linux-x64/ripgrep/bin/linux-x64/rg
+| /checode-linux-libc/ubi8/node_modules/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep
+| /checode-linux-libc/ubi8/node_modules/@vscode/ripgrep-universal/bin/linux-x64/rg                       | executable is not dynamically linked |
+| /checode-linux-libc/ubi9/extensions/copilot/node_modules/@github/copilot/sdk/tgrep/bin/linux-x64/tgrep | executable is not dynamically linked |
+| /checode-linux-libc/ubi9/extensions/copilot/node_modules/@github/copilot/tgrep/bin/linux-x64/tgrep     | executable is not dynamically linked |
+| /checode-linux-libc/ubi9/node_modules/@github/copilot-linux-x64/ripgrep/bin/linux-x64/rg               | executable is not dynamically linked |
+| /checode-linux-libc/ubi9/node_modules/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep              | executable is not dynamically linked |
+| /checode-linux-libc/ubi9/node_modules/@vscode/ripgrep-universal/bin/linux-x64/rg                       | executable is not dynamically linked |
+| /usr/sbin/ldconfig          
+
+---- Failure Report
+Operator Name,Executable Name,Status
+devspaces-code-rhel9-container,
+executable is not dynamically linked
+
+/checode-linux-libc/ubi8/extensions/copilot/node_modules/@github/copilot/sdk/tgrep/bin/linux-x64/tgrep
+/checode-linux-libc/ubi8/extensions/copilot/node_modules/@github/copilot/tgrep/bin/linux-x64/tgrep
+/checode-linux-libc/ubi8/node_modules/@github/copilot-linux-x64/ripgrep/bin/linux-x64/rg
+/checode-linux-libc/ubi8/node_modules/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep
+
+/checode-linux-libc/ubi9/extensions/copilot/node_modules/@github/copilot/sdk/tgrep/bin/linux-x64/tgrep
+/checode-linux-libc/ubi9/extensions/copilot/node_modules/@github/copilot/tgrep/bin/linux-x64/tgrep
+/checode-linux-libc/ubi9/node_modules/@github/copilot-linux-x64/ripgrep/bin/linux-x64/rg
+/checode-linux-libc/ubi9/node_modules/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep
+
+/checode-linux-libc/ubi8/node_modules/@vscode/ripgrep-universal/bin/linux-x64/rg
+/checode-linux-libc/ubi9/node_modules/@vscode/ripgrep-universal/bin/linux-x64/rg
+/checode-linux-libc/ubi8/node_modules/@vscode/ripgrep-universal/bin/linux-arm64/rg
+/checode-linux-libc/ubi9/node_modules/@vscode/ripgrep-universal/bin/linux-arm64/rg
+/checode-linux-libc/ubi8/node_modules/@vscode/ripgrep-universal/bin/linux-ppc64/rg
+/checode-linux-libc/ubi9/node_modules/@vscode/ripgrep-universal/bin/linux-ppc64/rg
+/checode-linux-libc/ubi8/node_modules/@vscode/ripgrep-universal/bin/linux-s390x/rg
+/checode-linux-libc/ubi9/node_modules/@vscode/ripgrep-universal/bin/linux-s390x/rg
+
+ 
+
+
