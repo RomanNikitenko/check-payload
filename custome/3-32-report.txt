@@ -1,0 +1,16 @@
++--------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| OPERATOR NAME                  | EXECUTABLE NAME                                                                                         | STATUS                                                                                             |
++--------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi8/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime | rust binary lacks a cargo-auditable manifest; bundled crypto cannot be ruled out (build with cargo-auditable) |
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi9/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime | rust binary lacks a cargo-auditable manifest; bundled crypto cannot be ruled out (build with cargo-auditable) |
++--------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+---- Failure Report
++--------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------+
+| OPERATOR NAME                  | EXECUTABLE NAME                                                                               | STATUS          |
++--------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------+
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi8/node_modules/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64/rg  | executable is not dynamically linked |
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi8/node_modules/@github/copilot-sdk-linux-x64/tgrep/bin/linux-x64/tgrep | executable is not dynamically linked |
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi9/node_modules/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64/rg  | executable is not dynamically linked |
+| devspaces-code-rhel9-container | /checode-linux-libc/ubi9/node_modules/@github/copilot-sdk-linux-x64/tgrep/bin/linux-x64/tgrep | executable is not dynamically linked |
+| devspaces-code-rhel9-container | /usr/sbin/ldconfig                                                                            | executable is not dynamically linked |
++--------------------------------+-----------------------------------------------------------------------------------------------+--------------------------------------+
